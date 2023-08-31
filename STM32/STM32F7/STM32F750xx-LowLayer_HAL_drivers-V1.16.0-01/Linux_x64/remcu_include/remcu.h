@@ -155,6 +155,9 @@ REMCULIB_DLL_API bool remcu_loadFrMem(const uintptr_t addr, const size_t count, 
  * @return If no error occurs, the function returns NULL
  * else the function returns error message (char array)
  * Don't free the pointer after use!
+ * Note:  Invoke the function after establishing a connection with the debugger
+ * through the successful utilization of either the
+ * remcu_connect2OpenOCD or remcu_connect2GDB functions.
  */
 REMCULIB_DLL_API const char* remcu_debuggerTest();
 
