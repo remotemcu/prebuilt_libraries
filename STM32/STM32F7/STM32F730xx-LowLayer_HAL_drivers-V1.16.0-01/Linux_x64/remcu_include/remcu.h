@@ -51,7 +51,7 @@ enum LevelDebug { __ERROR = 0,
                   __DEBUG, __ALL_LOG };
 
 #define MAX_MEM_OPERATION_SIZE 32
-#define MIN_MEM_OPERATION_SIZE 6
+#define MIN_MEM_OPERATION_SIZE 1
 
 #define _DEFAULT_TIMEOUT_SEC 3
 
